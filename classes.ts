@@ -1,16 +1,3 @@
-class Typescript {
-	version: string;
-
-	constructor(version: string) {
-		this.version = version;
-	}
-	info(name: string): string {
-		return `${name}:Typescript version is ${this.version}`;
-	}
-}
-
-const typeScript = new Typescript('1.2.3');
-
 const version = typeScript.info('TypeScript');
 
 console.log(version);
